@@ -1,18 +1,80 @@
-## Getting Started
+# 🎫 Ticket Reservation System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A Java-based console application for managing ticket bookings for trains. The system supports user registration, login, ticket booking, cancellations, schedule management, and admin operations.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 📌 Features
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### 👤 User Management
+- Register and login
+- View and update profile
+- Admin and Customer roles
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### 🎟️ Ticket Booking
+- Search trains by station and date
+- Book tickets by selecting coach and seat
+- Cancel or modify bookings
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### 💳 Payments
+- Choose payment method: Card, UPI, or NetBanking
+- Automatically assign seat upon successful booking
 
-## Dependency Management
+### 📅 Schedule Management
+- View station-wise timing
+- Admin can add new trains, coaches, and schedules
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## 💻 Technologies Used
+
+- **Java 17+**
+- Console-based UI (no GUI)
+- Java Collections (Map, List)
+- Object-Oriented Programming (OOP)
+
+---
+
+## 📂 Folder Structure
+
+TicketReservationSystem/
+│
+├── src/
+│ ├── App.java # Main class (entry point)
+│ ├── User.java # User class with enum UserType
+│ ├── Profile.java # Profile details and payment method enum
+│ ├── Train.java # Train class with schedule & coaches
+│ ├── Coach.java # Coach with seat availability logic
+│ ├── Booking.java # Booking details and status
+│ └── ... (utils/managers if added)
+│
+├── README.md # You're here!
+└── .gitignore # Optional, to ignore compiled files
+
+yaml
+Copy
+Edit
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+git clone https://github.com/yourusername/TicketReservationSystem.git
+cd TicketReservationSystem
+
+###2. Compile and Run
+
+Using terminal:
+javac src/*.java
+java src.App
+Or run from an IDE like VS Code or Eclipse.
+
+###🧪 Sample Test Flow
+
+Register a new user
+View profile and add address/payment method
+Search for available trains
+Book a seat
+View booking details
+Cancel the booking
