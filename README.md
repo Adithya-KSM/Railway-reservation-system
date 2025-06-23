@@ -52,7 +52,7 @@ TicketReservationSystem/
 ├── .gitignore             # Optional, to ignore compiled files
 └── bin/                   # Compiled .class files (can be ignored in Git)
 
-
+```
 ---
 
 ## 🚀 Getting Started
