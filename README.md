@@ -37,19 +37,21 @@ A Java-based console application for managing ticket bookings for trains. The sy
 
 ## 📂 Folder Structure
 
+```plaintext
 TicketReservationSystem/
 │
 ├── src/
-│ ├── App.java # Main class (entry point)
-│ ├── User.java # User class with enum UserType
-│ ├── Profile.java # Profile details and payment method enum
-│ ├── Train.java # Train class with schedule & coaches
-│ ├── Coach.java # Coach with seat availability logic
-│ ├── Booking.java # Booking details and status
-│ 
+│   ├── App.java           # Main class (entry point)
+│   ├── User.java          # User class with enum UserType
+│   ├── Profile.java       # Profile details and payment method enum
+│   ├── Train.java         # Train class with schedule & coaches
+│   ├── Coach.java         # Coach with seat availability logic
+│   ├── Booking.java       # Booking details and status
 │
-├── README.md # You're here!
-└── .gitignore # Optional, to ignore compiled files
+├── README.md              # You're here!
+├── .gitignore             # Optional, to ignore compiled files
+└── bin/                   # Compiled .class files (can be ignored in Git)
+
 
 ---
 
