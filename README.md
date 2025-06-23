@@ -46,14 +46,10 @@ TicketReservationSystem/
 │ ├── Train.java # Train class with schedule & coaches
 │ ├── Coach.java # Coach with seat availability logic
 │ ├── Booking.java # Booking details and status
-│ └── ... (utils/managers if added)
+│ 
 │
 ├── README.md # You're here!
 └── .gitignore # Optional, to ignore compiled files
-
-yaml
-Copy
-Edit
 
 ---
 
@@ -63,14 +59,14 @@ Edit
 git clone https://github.com/yourusername/TicketReservationSystem.git
 cd TicketReservationSystem
 
-###2. Compile and Run
+### 2. Compile and Run
 
 Using terminal:
 javac src/*.java
 java src.App
 Or run from an IDE like VS Code or Eclipse.
 
-###🧪 Sample Test Flow
+## 🧪 Sample Test Flow
 
 Register a new user
 View profile and add address/payment method
