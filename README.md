@@ -58,14 +58,18 @@ TicketReservationSystem/
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
-git clone https://github.com/yourusername/TicketReservationSystem.git
-cd TicketReservationSystem
+```bash
+git clone https://github.com/Adithya-KSM/Railway-reservation-system.git
+cd Railway-reservation-system
+```
 
 ### 2. Compile and Run
 
 Using terminal:
+```bash
 javac src/*.java
 java src.App
+```
 Or run from an IDE like VS Code or Eclipse.
 
 ## 🧪 Sample Test Flow
